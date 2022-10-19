@@ -1,0 +1,2 @@
+# blog
+Next.js blog
