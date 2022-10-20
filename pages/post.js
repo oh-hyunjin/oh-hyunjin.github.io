@@ -5,7 +5,7 @@ export default function Post() {
     return (
         <Layout>
             <Head>
-                <title>hyunjin's blog</title>
+                <title>hyunjin blog</title>
                 <meta name="description" content="hmm,,nya,,ring,,,,," />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
