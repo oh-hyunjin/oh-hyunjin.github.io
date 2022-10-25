@@ -3,14 +3,14 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true,
-    path: "",
+    unoptimized: true
   },
   basePath: "/blog",
   assetPrefix: "/blog",
   images:{
     domains: [
-      'www.notion.so'
+      'www.notion.so',
+      'images.unsplash.com'
     ]
   }
 };
