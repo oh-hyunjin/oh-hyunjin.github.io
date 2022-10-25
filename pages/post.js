@@ -35,7 +35,7 @@ export default function Post({posts}) {
 }
 
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     
     const options = {
         method: 'POST',
@@ -60,5 +60,6 @@ export async function getServerSideProps() {
 
     return {
       props: {posts}, // will be passed to the page component as props
+      revalidate: 1 // 데이터 변경이 있으면 갱신 1초 마다 - 갱신 주기 설정 가능
     }
 }
