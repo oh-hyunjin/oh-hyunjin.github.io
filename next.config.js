@@ -7,7 +7,13 @@ const nextConfig = {
     path: "",
   },
   basePath: "/blog",
-  assetPrefix: "/blog"
+  assetPrefix: "/blog",
+  images:{
+    domains: [
+      'www.notion.so',
+      'images.unsplash.com'
+    ]
+  }
 };
 
 module.exports = nextConfig
