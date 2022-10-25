@@ -25,6 +25,7 @@ export default function Post({posts}) {
                 {posts.results.map((aPost) => (
                   <PostItem key={aPost.id} data={aPost}/>
                 ))}
+
               </div>
             
             </div>
