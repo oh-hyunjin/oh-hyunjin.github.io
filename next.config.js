@@ -10,8 +10,8 @@ const nextConfig = {
       'images.unsplash.com'
     ]
   },
-  basePath: "/blog",
-  assetPrefix: "/blog",
+  basePath: "", // css 적용
+  assetPrefix: "",
 };
 
 module.exports = nextConfig
