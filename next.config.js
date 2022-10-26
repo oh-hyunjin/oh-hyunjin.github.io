@@ -2,13 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    unoptimized: true,
-    path: "", // 다시 추가함
+  images:{
     domains: [
       'www.notion.so',
       'images.unsplash.com'
     ]
+  },
+  images: {
+    unoptimized: true,
+    path: ""
   },
   basePath: "", // css 적용
   assetPrefix: "",
