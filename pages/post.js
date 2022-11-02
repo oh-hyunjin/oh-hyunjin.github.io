@@ -16,7 +16,7 @@ export default function Post({posts}) {
                 <meta name="description" content="hmm,,nya,,ring,,,,," />
                 <link rel="icon" href="/favicon.ico" />
               </Head>
-              <h1 className="text-4xl font-bold sm:text-6xl">
+              <h1 className="text-3xl font-bold sm:text-4xl">
                 총 포스트 : 
                 <span className="pl-4 text-blue-500">{posts.results.length}</span>
               </h1>
